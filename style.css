@@ -63,3 +63,18 @@
         .logo-img {
             text-align: center;
         }
+        /* meadia quaries */
+        
+        @media only screen and (max-width:998px) {
+            .top-banner {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .pic-player {
+                width: 100%;
+            }
+            .players {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
