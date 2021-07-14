@@ -1,0 +1,53 @@
+        /* font family */
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .top-coment {
+            color: white;
+            font-size: 75px;
+            padding: 120px;
+            text-align: left;
+        }
+        
+        a {
+            color: white;
+            background-color: red;
+            font-size: 20px;
+            padding: 10px 25px;
+            border-radius: 15px;
+            text-decoration: none;
+        }
+        
+        .top-banner {
+            background-color: blue;
+            padding: 120px;
+            display: flex;
+        }
+        
+        .pic-player :hover {
+            transform: rotate(40dg);
+        }
+        
+        .pic-player img {
+            width: 800px;
+            height: 600px;
+        }
+        /* players information */
+        
+        .players {
+            display: grid;
+            grid-template-columns: repeat(3, 4fr);
+            grid-column-gap: 20px;
+        }
+        
+        .player .player-pic img {
+            width: 260px;
+            height: 220px;
+        }
+        
+        .player-info {
+            font-size: 20px;
+            justify-content: left;
+        }
