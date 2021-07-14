@@ -11,6 +11,10 @@
             text-align: left;
         }
         
+        .pic-player:hover img {
+            transform: scale(1.3);
+        }
+        
         a {
             color: white;
             background-color: red;
@@ -39,7 +43,10 @@
         .players {
             display: grid;
             grid-template-columns: repeat(3, 4fr);
-            grid-column-gap: 20px;
+            grid-column-gap: 25px;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 5%;
         }
         
         .player .player-pic img {
@@ -49,5 +56,10 @@
         
         .player-info {
             font-size: 20px;
-            justify-content: left;
+            justify-content: center;
+        }
+        /* foter part of the page */
+        
+        .logo-img {
+            text-align: center;
         }
